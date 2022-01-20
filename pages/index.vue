@@ -45,6 +45,8 @@ export default {
         2xl:min-h-[auto]
       "
     >
+      <Header />
+
       <div
         class="
           absolute
@@ -171,6 +173,8 @@ export default {
         />
       </div>
     </div>
+
+    <Footer />
   </main>
 </template>
 

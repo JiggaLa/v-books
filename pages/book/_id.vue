@@ -135,6 +135,8 @@ export default {
         </div>
       </section>
     </section>
+
+    <Footer />
   </main>
 </template>
 
