@@ -1,0 +1,13 @@
+button,
+.fm-btn {
+    @apply px-4 py-[10px] rounded-lg h-[40px]  font-medium text-center text-white bg-black flex justify-center items-center outline-none  cursor-pointer border;
+
+    @apply transition-all duration-300 ease-v-ease;
+
+    @apply hover:bg-transparent hover:text-black hover:border-black;
+
+    &:disabled,
+    &.loading {
+        @apply text-[#8b8b8b] bg-transparent cursor-auto hover:bg-transparent;
+    }
+}
