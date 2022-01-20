@@ -9,6 +9,9 @@ export default {
         'ISBN:0553276328',
         'ISBN:067942525X',
         'ISBN:0553591738',
+        'ISBN:0399151788',
+        'ISBN:0738710377',
+        'ISBN:1250058376'
       ],
       popularBooks: undefined,
     }
