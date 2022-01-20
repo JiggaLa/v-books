@@ -4,7 +4,7 @@ button,
 
     @apply transition-all duration-300 ease-v-ease;
 
-    @apply hover:bg-transparent hover:text-black hover:border-black;
+    @apply hover:bg-white hover:text-black hover:border-black;
 
     &:disabled,
     &.loading {
