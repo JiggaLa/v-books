@@ -14,6 +14,7 @@ header {
 }
 
 #__nuxt,
+#__layout,
 .container {
     @apply max-w-[1920px] w-full flex flex-col items-center overflow-hidden;
 }
