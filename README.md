@@ -1,4 +1,26 @@
-# v-books
+# VersaBooks
+
+VersaBooks is an open, editable library catalog, building towards a web page for every book ever published.
+
+`Responsive` VersaBooks website is fully responsive and compatible with all major browsers across devices.
+
+`API:` Open Library Book API, check out [documentation](https://openlibrary.org/dev/docs/api/books)
+
+`Goal:` Build an open, curated and an editable library containing book information and metadata. A request can be made to VersaBooks to add a book to the catalogue, but not available for the current alpha build. Website must be accessible across all platforms and browsers (IE11 or older are not supported).
+
+`Problems and possible improvements:`
+
+- API doesn't allow post requests. User book request feature can't be built until the request endpoint is ready.
+- For future development, API is not secured with an access key. For testing purposes and in the alpha stage, this is ok, but not advisable for production. API needs to be secured and keys saved to '.env' file and added to 'gitignore'.
+- API is called for every page load, caching might be needed and deployed for a snappier user experience in the future. This may also require the use of vue state management - Vuex (store).
+- Loading state element popping. This is probably due to the fetch hook and Axios syncing. But styling needs more tweaking to improve state feedback for the user.
+
+### `Dev stack:`
+
+- Nuxt.js (Vue.js 2)
+- Tailwind CSS
+- SASS
+- Axios
 
 ## Build Setup
 
@@ -40,7 +62,6 @@ More information about the usage of this directory in [the documentation](https:
 Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
 
 ### `pages`
 
