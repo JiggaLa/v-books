@@ -11,7 +11,7 @@ export default {
         'ISBN:0553591738',
         'ISBN:0399151788',
         'ISBN:0738710377',
-        'ISBN:1250058376'
+        'ISBN:1250058376',
       ],
       popularBooks: undefined,
     }
@@ -24,7 +24,6 @@ export default {
       .get(openLibraryAPIUrl)
       .then((res) => {
         this.popularBooks = res.data
-        console.log(res.data)
       })
       .catch((err) => {
         console.error(err)

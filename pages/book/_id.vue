@@ -8,7 +8,6 @@ export default {
   },
 
   fetch() {
-    console.log(this.$route.params.id)
     this.isbn = `ISBN:${this.$route.params.id}`
 
     const openLibraryAPIUrl = `https://openlibrary.org/api/books?bibkeys=${this.isbn}&format=json&jscmd=data`
@@ -17,7 +16,6 @@ export default {
       .get(openLibraryAPIUrl)
       .then((res) => {
         this.book = res.data[this.isbn]
-        console.log(this.book)
       })
       .catch((err) => {
         console.error(err)
