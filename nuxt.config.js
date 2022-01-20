@@ -41,7 +41,20 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
+      name: 'VersaBooks',
+      short_name: 'VB',
+      description:
+        'VersaBooks is an open, editable library catalog, building towards a web page for every book ever published.',
+      background_color: '#FFFFFF',
       lang: 'en',
+    },
+    meta: {
+      mobileAppIOS: true,
+      name: 'VersaBooks',
+      author: 'VersaBooks Team',
+      description: '',
+      lang: 'en',
+      theme_color: '#FFFFFF',
     },
   },
 
