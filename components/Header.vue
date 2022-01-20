@@ -38,8 +38,9 @@
       </NuxtLink>
 
       <div class="navs">
-        <span class="pr-4 lg:hidden">Request a new book to be added</span>
-        <button>Send request</button>
+        <span class="pr-4 lg:hidden"
+          >VersaBooks is an open, editable library catalog</span
+        >
       </div>
     </div>
   </header>
